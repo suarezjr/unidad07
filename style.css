@@ -16,7 +16,7 @@ a {
 #body {
     display: flex;
     flex-direction: column;
-    max-width: max-content; /* que se ajuste al ancho maximo */
+    max-width: 100%; /* que se ajuste al ancho maximo */
 }
 
 #main {
@@ -28,11 +28,10 @@ a {
     align-items: center;
 }
 
-/*PROBAMOS NUEVA ACTUALIZACIÓN DE GIT*/
 /*ESTILOS NAVBAR BTS*/
 #navBar {
     /*max-width: 1400px; lo comente para que tome el ancho del body */
-    background-color: cadetblue;
+    background-color: whitesmoke;
     position: fixed;
     z-index: 100;
     height: 80px;
@@ -44,10 +43,11 @@ a {
 /*ESTILOS CONTENIDO*/
 /*////////////////////////////////////////////////////*/
 .main__banner {
+    /*border: 5px solid lightseagreen;*/
     width: 100%;
     height: 50vh;
     margin-top: 80px;
-    background-image: url(images/cabecera.png);
+    background-image: url(images/banner3.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -186,18 +186,12 @@ a {
 
 
 
-
-
-
-
-
-
-/*ESTILOS FOOTER*/
+/*ESTILOS PARA EL FOOTER*/
 #footer {
     width: 100%;
     height: auto;
     margin-top: auto;
-    background-color: aqua;
+    background-color: whitesmoke;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -210,7 +204,7 @@ a {
 
 /*FOOTER LINKS*/
 .footer__links {
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
