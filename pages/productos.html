@@ -15,6 +15,7 @@
         <!--HOJA DE ESTILO PROPIA-->
         <link rel="stylesheet" href="../style.css">
         <title>Productos</title>
+
     </head>
     <body id="body">
         <!--ESTRUCTURA°1 = HEADER/NAV-->
@@ -36,54 +37,64 @@
             </div>
         </nav>
 
-        <!--BANNER DEL SITIO-->
         <section class="main__banner">
             <picture class="main__banner-picture">
-                <img src="../icons/logo.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint corrupti eligendi eum magnam rem animi.</p>
+                <p class="display-6">Porque no son mascotas, son Familia</p>
+                <p class="display-7">Y para la Familia, lo mejor de nosotros a tu disposición</p>
             </picture>
         </section>
         
         <!--ESTRUCTURA°2 = MAIN-->    
         <main id="main">
 
-            <section class="grid__productos">
-                <picture class="img1">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img2">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img3">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img4">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img5">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img6">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img7">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img8">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-
-                <picture class="img9">
-                    <img src="../images/page-imagenes/producto.webp" alt="">
-                </picture>
-            </section>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Imagen</th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Opciones</th> 
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><picture class="img1"><img src="../images/page-productos/1.png" alt=""></picture></th>
+                    <td>Peine Secador Cepillo Pelo Perro Gato Mascota 2 En 1 Color Blanco</td>
+                    <td>$ 35.000</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Ver detalle</button>
+                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><picture class="img1"><img src="../images/page-productos/2.png" alt=""></picture></th>
+                    <td>Colchon Colchoneta Cama Cordura Antidesgarro Perros Mascotas</td>
+                    <td>$ 45.000</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Ver detalle</button>
+                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><picture class="img1"><img src="../images/page-productos/3.png" alt=""></picture></th>
+                    <td>Corral Para Mascotas 200 X 100 X 62 -perros-gatos-conejos</td>
+                    <td>$ 75.500</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Ver detalle</button>
+                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><picture class="img1"><img src="../images/page-productos/4.png" alt=""></picture></th>
+                    <td>Cepillo Guante True Touch Mascotas Sacapelos Y Masajeador</td>
+                    <td>$ 3.000</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Ver detalle</button>
+                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
         </main>
 

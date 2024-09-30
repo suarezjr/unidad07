@@ -116,18 +116,13 @@ a {
 
 }
 
-.form__contacto-check1 , .form__contacto-check2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.form__contacto-talles {
+.form__contacto-tipo {
     display: flex;
     flex-direction: column;
 }
 
 .form__contacto-textarea {
-    resize: none;
+    resize: vertical;
 }
 
 .form__contacto-buttons {

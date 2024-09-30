@@ -38,55 +38,36 @@
         <!--BANNER DEL SITIO-->
         <section class="main__banner">
             <picture class="main__banner-picture">
-                <!-- <img src="../icons/logo.png" alt=""> -->
-                <p class="font-weight-bold">Porque no son mascotas, son Familia. Y para la Familia, lo mejor de nosotros a tu disposición</p>
+                <p class="display-6">Porque no son mascotas, son Familia</p>
+                <p class="display-7">Y para la Familia, lo mejor de nosotros a tu disposición</p>
             </picture>
         </section>
         
         <!--ESTRUCTURA 2 = MAIN-->    
         <main id="main">
 
-            <h1>Contacto</h1>
+            <h3>Contacto</h3>
 
-            <form id="form" caction="">
-                <iframe class="form__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26270.704052415484!2d-58.4017456930844!3d-34.60825760286597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1726883718796!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+            <form id="form" caption="">
+                <iframe class="form__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9519.145664909425!2d-58.24380923764412!3d-32.48536170276857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afdb005dbc939d%3A0x3c8a23c6cb1334b2!2sConcepci%C3%B3n%20del%20Uruguay%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1727651854011!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <section class="form__contacto">
-
                     <input type="text" value="Nombre">
                     <input type="email" value="Email">
                 
-                    <article class="form__contacto-compra">
-                        <label for="tipo-compra">Compra por</label>
-                        <article class="form__contacto-contcheck">
-                            <article class="form__contacto-check1">
-                                <label for="">On-Line</label>
-                                <input type="checkbox" name="" id="">
-                            </article>
-        
-                            <article class="form__contacto-check2">
-                                <label for="">Tienda</label>
-                                <input type="checkbox" name="" id="">
-                            </article>
-                        </article>
-                        
-                    </article>
-                    
-                    <article class="form__contacto-talles">
-                        <label for="talles-remera">Talles</label>
-                        <select name="remeras" id="taller">
-                            <option value="small">S</option>
-                            <option value="medium">M</option>
-                            <option value="large">L</option>
-                            <option value="exra-large">XL</option>
+                    <article class="form__contacto-tipo">
+                        <label for="tipo-consulta">Usted consulta por: </label>
+                        <select name="tipo" id="taller">
+                            <option value="productos">Productos</option>
+                            <option value="servicios">Servicios</option>
+                            <option value="otros">Otros</option>
                         </select>
                     </article>
                     
                     <textarea class="form__contacto-textarea" name="" id=""></textarea>
 
                     <article class="form__contacto-buttons">
-                        <input type="submit">
-                        <input type="reset">
+                        <input type="submit" class="btn btn-success">
+                        <input type="reset" class="btn btn-secondary">
                     </article>
                     
                 </section>
